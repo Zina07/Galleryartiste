@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 // import NavGallery from "./components/navGallery/page";
 //import baseBouton from "./components/baseBouton/page";
-import Footer from "./components/footer/page"
+import Footer from "./components/footer/footer"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,23 +22,22 @@ export default function RootLayout({
   return (
     <html lang="fr">
        <body className={inter.className}>
-        <section> 
-          <header>
-          <nav><h1 className="bg-white rounded-lg">ici futur Nav</h1>
-          </nav>
-          </header>
-
-          </section>
-
+        
           <section>
-          <main>
+          <nav className="bg-white rounded-lg">
+         
+            <h1 className="bg-grey rounded-lg">ici futur Nav</h1>
+          </nav>
+       </section>
 
-            <section>
+          
+
+         
                {/* <BaseBouton/>  */}
-               </section>
+              
           {children}
-          </main>
-        </section>
+         
+       
         
          </body>
          <Footer/>

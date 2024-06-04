@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import BaseBouton from './components/baseBouton/page'
+import BaseBouton from './components/baseBouton/baseButon'
 // import Footer from "./components/footer/page";
 
 
