@@ -1,7 +1,7 @@
  'use client';
 import Image from 'next/image'
 import link from 'next/link'
-import { CardsImg } from './cardimg'
+import CardsImg from './cardimg'
 // import { ContainerFonds } from '../containerFond/page'
 
  type DashboardProps={backgroundColor:string};
