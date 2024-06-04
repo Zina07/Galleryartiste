@@ -7,7 +7,7 @@ import Dashboard from '../../components/dashboard'
 export default function Gallerystyles1() {
 // const >backgroundColor = "orange";
     return (
-<Dashboard backgroundColor='background-image: linear-gradient(to top, [#09203f] 0%, [#537895] 100%);'/>
+<Dashboard backgroundColor='orange'/>
       
 
         
