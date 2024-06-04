@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image'
-import CardsImg from '../../components/cardimg'
+import CardsImg from '../components/cardimg'
 // import NavGallery from '../components/navGallery/page';
 // import { ContainerFonds } from '../containerFond/page'
 // import styles from '../testzstyles/page/styles.css'
