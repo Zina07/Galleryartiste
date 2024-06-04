@@ -1,8 +1,8 @@
 'use client';
 import Image from 'next/image'
-import { CardsImg } from '../../cardImg/page'
+import { CardsImg } from '../../components/cardimg'
 // import NavGallery from '../components/navGallery/page';
-import { ContainerFonds } from '../containerFond/page'
+// import { ContainerFonds } from '../containerFond/page'
 // import styles from '../testzstyles/page/styles.css'
 
 type DashboardProps={backgroundColor:string};
