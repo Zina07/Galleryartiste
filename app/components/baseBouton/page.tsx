@@ -4,7 +4,7 @@ import Image from 'next/image'
 
  type baseBouton='buton';
 
- export function BaseBouton () {
+ export default function BaseBouton () {
 // const backgroundColor = "orange";
     return (
 <>  
@@ -20,4 +20,4 @@ import Image from 'next/image'
 }
 
 
-;
+e
