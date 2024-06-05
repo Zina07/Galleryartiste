@@ -29,7 +29,7 @@ export default function Gallery({backgroundColor}:DashboardProps) {
       <CardsImg src="/img/images-6.jpeg" width={500}  height={500}  alt="Picture of the author"/>
      
   
-         <CardsImg src="/img/images-7.jpeg" width={300}  height={400}  alt="Picture of the author"/>
+      <CardsImg src="/img/images-7.jpeg" width={300}  height={400}  alt="Picture of the author"/>
         
     
         <CardsImg src="/img/images-3.jpeg" width={400}  height={600}  alt="Picture of the author"/>

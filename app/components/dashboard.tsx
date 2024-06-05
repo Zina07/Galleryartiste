@@ -38,7 +38,13 @@ export default function Dashboard({backgroundColor}:DashboardProps) {
      
       <CardsImg src="/img/images-4.jpeg" width={400}  height={500}  alt="Picture of the author"/>
      
-
+      <CardsImg src="/img/images-2.jpeg" width={400}  height={500}  alt="Picture of the author"/>
+     
+     <CardsImg src="/img/images-1.jpeg" width={400}  height={500}  alt="Picture of the author"/>
+    
+     <CardsImg src="/img/images-5.jpeg" width={400}  height={500}  alt="Picture of the author"/>
+    
+     <CardsImg src="/img/images-4.jpeg" width={400}  height={500}  alt="Picture of the author"/>
     </div>
     
  

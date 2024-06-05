@@ -1,6 +1,8 @@
 import Sidebar from "../components/sidebar"
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
+import Footer from '../components/footer'
+// import '@/app/components/footer';
 
 
 
@@ -28,7 +30,10 @@ export default function toutelesgalleryLayout({
          
             </main>
           {children}
-            
+          {/* <section>
+              <Footer/>
+          </section> */}
+          
              </body>  
                 
         </html>
