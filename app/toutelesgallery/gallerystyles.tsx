@@ -2,7 +2,7 @@
 // import Image from 'next/image'import {CardsImg} from '../../components/cardimg'
 // import { ContainerFonds } from '../containerFond/page'
 // import NavGallery from "../components/navGallery/page"
-import Dashboard from '../../components/dashboard'
+import Dashboard from '../components/dashboard'
 import link from 'next/link'
 
 
