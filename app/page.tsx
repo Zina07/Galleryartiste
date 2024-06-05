@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import BaseBouton from './components/baseButon'
 // import Footer from "./components/footer/page";
 
