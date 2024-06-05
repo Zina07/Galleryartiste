@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-
+import { useState, useEffect } from 'react'
 
 export type CardsImgProps = {
     src: string;
@@ -13,6 +13,11 @@ export type CardsImgProps = {
   // md:opacity-50 pour
   
 function CardsImg({src, width, height, alt}:CardsImgProps) {
+  const [isClient, setIsClient] = useState(false)
+ 
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
     return (
       <div className="bg-gray-50 dark:bg-gray-800 id='cardImgGallery'
       border border-gray-200 rounded-lg shadow hover:bg-gray-100  dark:border-gray-700 grey

@@ -22,28 +22,31 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<>
     <html lang="fr">
       <head></head>
-       <body className={inter.className}>
-        
+       <body className={'${inter.className} justify-start '}>
+        <main>
+          zina1
+          <header>
           <section>
-          <nav className="bg-white rounded-lg">
+          <nav className="bg-grey rounded-lg dark:bg-gray-900 m-2">
          
-            <h1 className="bg-grey rounded-lg">ici futur Nav</h1>
+            <h1 className="bg-white rounded-lg">ici futur Nav</h1>
           </nav>
-       </section>
-
-          
-
-         
-               {/* <BaseBouton/>  */}
-              
-          {children}
-         
+          </section>
+          </header>
        
-          <Footer/> 
+            <div className="min-h-screen">
+               {children}
+              </div> 
+         
+    </main>
+          <Footer/>
          </body>
-        
-    </html>
+       
+    </html> 
+    
+    </>
   );
 }

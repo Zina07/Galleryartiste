@@ -1,26 +1,26 @@
 'use client';
 import { Url } from "next/dist/shared/lib/router/router";
 import Link from "next/link";
-import Gallerystyles from "@/app/toutelesgallery/gallerystyles/page";
-import Gallerystyles1 from "@/app/toutelesgallery/gallerystyles1/page";
-import { link } from "fs";
+import Gallerystyles from "../toutelesgallery/gallerystyles";
+import Gallerystyles1 from "../toutelesgallery/gallerystyles1/page";
+
 
 export default function Sidebar() {
     const menuItem=[
         {
             link:"/",
-            name:"Accueil",
+            name:"Les Nuages",
 
     },
     {
        
-        link:"/",
+        link:"/gallerystyles",
         name:"Portrait",
 
 },
 {
    
-        link:"/gallerystyles1",
+        link:"/gallerystyle1",
         name:"Fotographie",
 },
     ]

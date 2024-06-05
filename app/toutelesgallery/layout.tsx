@@ -15,28 +15,24 @@ export const metadata: Metadata = {
   };
   
 
-export default function toutelesgalleryLayout({
+export default function Layout({
     children,
   }: {
     children: React.ReactNode
   }) {
     return (
-        <html lang="fr">
-          <body className={`${inter.className} flex items-start justify-between`}>
+        
+         <div className={`${inter.className} flex items-start justify-between`}>
             <Sidebar/>
-          {/* ici xidth et height en auto pour la gestion d'espace entra la side barre sur le coté droit
+          {/* ici width et height en auto pour la gestion d'espace entra la side barre sur le coté droit
           et la gallery placée sur le côté gauche */}
-            <main className="w-auto h-auto">
-         
-            </main>
-          {children}
-          {/* <section>
-              <Footer/>
-          </section> */}
+            <div className="w-auto h-auto">
+         {children}
           
-             </body>  
+          </div>
+          </div>
                 
-        </html>
+        
       );
     }
     
