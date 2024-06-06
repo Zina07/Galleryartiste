@@ -13,11 +13,7 @@ function Gallery({backgroundColor}:DashboardProps) {
 // const backgroundColor = "orange";
     return (
 <>  
-{/* <section>
-  <nav><NavGallery/>
-  </nav>
 
-</section> */}
   
 <div className={`grid grid-cols-1 md:grid-cols-3 gap-4`} style={{backgroundColor:backgroundColor}}>
 
