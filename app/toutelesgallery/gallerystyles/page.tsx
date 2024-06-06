@@ -9,6 +9,7 @@ import link from 'next/link'
 
 function Gallerystyles() {
 // const >backgroundColor = "orange";
+// background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 
 
     return (

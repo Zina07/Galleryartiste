@@ -4,14 +4,16 @@ import link from 'next/link'
 import CardsImg from './cardimg'
 // import { ContainerFonds } from '../containerFond/page'
 
- type DashboardProps={backgroundColor:string};
+ type DashboardProps={backgroundColor?:string, backgroundImage?:string};
 
-export default function Dashboard({backgroundColor}:DashboardProps) {
+
+
+export default function Dashboard({backgroundColor = "", backgroundImage = ""}:DashboardProps) {
 // const backgroundColor = "orange";
     return (
 <>  
   
-<div className={`grid grid-cols-1 md:grid-cols-3 gap-4`} style={{backgroundColor:backgroundColor}}>
+<div className={`grid grid-cols-1 md:grid-cols-3 gap-4`} style={{backgroundColor:backgroundColor, backgroundImage: backgroundImage}}>
 
    
       <CardsImg src="/img/images-6.jpeg" width={300}  height={500}  alt="Picture of the author"/>
