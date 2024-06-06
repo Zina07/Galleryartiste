@@ -5,9 +5,11 @@ import CardsImg from '../../components/cardimg'
 // import { ContainerFonds } from '../containerFond/page'
 // import styles from '../testzstyles/page/styles.css'
 
+type backgroundColor= string;
+
 type DashboardProps={backgroundColor:string};
 
-export default function Gallery({backgroundColor}:DashboardProps) {
+function Gallery({backgroundColor}:DashboardProps) {
 // const backgroundColor = "orange";
     return (
 <>  
@@ -52,3 +54,5 @@ export default function Gallery({backgroundColor}:DashboardProps) {
     
 
 }
+
+export default Gallery;

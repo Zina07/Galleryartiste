@@ -1,7 +1,7 @@
 'use client';
 import { Url } from "next/dist/shared/lib/router/router";
 import Link from "next/link";
-import Gallerystyles from "../toutelesgallery/gallerystyles/gallerystyles";
+import Gallerystyles from "../toutelesgallery/gallerystyles/page";
 import Gallerystyles1 from "../toutelesgallery/gallerystyles1/page";
 
 
