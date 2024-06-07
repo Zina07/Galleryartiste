@@ -6,14 +6,14 @@ import Dashboard from '@/app/components/dashboard';
 // import { ContainerFonds } from '../containerFond/page'
 // import styles from '../testzstyles/page/styles.css'
 
-
+// ici couleur Everlastinesky de Webgradient
 function Gallery() {
-// const backgroundColor = "orange";
+
     return (
 <>  
 
   
-<Dashboard backgroundImage='linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);;'/> 
+<Dashboard backgroundImage='linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);'/> 
    
   </>
 
