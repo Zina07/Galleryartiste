@@ -66,7 +66,7 @@ return <div className="flex flex-col gap-4 w-[200px] min-w-[200px] sticky top-0 
 </div>
 }
 
-{/* //     return <div className="  flex flex-col gap-4 w-[200px] min-w-[200px] sticky top-0  border-r min-h-screen p-2">Nom de l'Artiste */}
+// {/* //     return <div className="  flex flex-col gap-4 w-[200px] min-w-[200px] sticky top-0  border-r min-h-screen p-2">Nom de l'Artiste */}
 //             <div className="-z-50">
 //   <div className="grow bg-green-200 flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"> Menu
 //   <nav>

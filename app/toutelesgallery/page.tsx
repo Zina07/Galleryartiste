@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Gallerystyles1 from "./gallerystyles1/page";
+// import Gallerystyles1 from "./gallerystyles1/page";
 // import toutelesgallery from "./toutelesgallery";
 // import Gallery from "./gallery";
 // import BaseBouton from './components/baseButon'
 // import Footer from "../components/footer";
-import Footer from '@/app/components/footer'
+// import Footer from '@/app/components/footer'
 
 
 
@@ -18,17 +18,10 @@ export default function Page() {
       
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
        
-       
-        
-        
-         
+    
         
       </div>
 
-   
-
-  
-  
   
    
        </div>
