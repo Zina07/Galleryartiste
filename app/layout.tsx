@@ -13,8 +13,8 @@ import Footer from "./components/footer"
 
 
 const inter = Inter({ subsets: ["latin"] });
-const roboto = Inter({ subsets: ["latin"], weight: ["300", "500", "400", "700"] });
-const oswald = Inter({ subsets: ["latin"], weight: ["300", "500", "400", "800"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["300", "500", "400", "700"] });
+const oswald = Oswald({ subsets: ["latin"], weight: ["300", "500", "400", "600"] });
 
 export const metadata: Metadata = {
   title: "GalleryArtiste",
@@ -38,7 +38,7 @@ export default function RootLayout({
 <>
     <html lang="fr">
       <head></head>
-       <body className={'${inter.className} justify-start'}>
+       <body className={'${inter.className}, ${roboto.className}, ${oswald.className} justify-start'}>
         <main>
           zina1
           {/* <header>
