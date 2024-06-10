@@ -2,30 +2,63 @@
 import React from "react";
 import Link from "next/link"
 
-type navGallerry ='navbarre';
-export default function NavGallery () {
-    const menuItem=[
-        {
-            name:"Accueil",
-            link:"/",
 
-    },
-    {
-        name:"Portrait",
-        link:"/../gallerystyles",
 
-},
-{
-    name:"Fotographie",
-    link:"/gallerystyles1",
+// const NavGallery = () => {
+//     return (
+//         <>
+//         <Header/>
+//             <NavLogo/>
+//                 <NavAuth/>
+           
+//    </>
 
-},
+        
+//     )
+// }
 
-]
-return (
+
+// const Header = () => {
+//     return (
+//         <header className=" w-full min-h[75 px] flex justify-center items-center
+//         border-b-[rgba(var(--primary-color),0.2)]">
+//         <img src="/" alt="" />
+//         <h3>contact</h3>
+
+//     </header>
+
+//     )
+// }
+ 
+// const NavAuth = () => {
+//     return (
+
+
+//     <div>
+//         <img src="/logo.png" alt="" />
+//         <h3>Artiste</h3>
+        
+//     </div>
+
+//     )
+// }
+
+// const NavLogo = () => {
+//     return (
+//     <nav>
    
 
-<div>
+//     <div>
+//         <img src="/icon-menu.svg" alt="logo" />
+//         <h3>Logo</h3>
+        
+//     </div>
+    
+// </nav>
+//     )
+// }
+// // 
+/* <div>
 <ul className="bg-white rounded-lg">
     {menuItem.map((menu) => {
         return (
@@ -41,5 +74,6 @@ return (
     
     
 );
-}
+// } */
 
+// export default NavGallery;
