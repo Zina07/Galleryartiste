@@ -3,12 +3,12 @@ import { Inter } from "next/font/google";
 import { Roboto } from "next/font/google";
 import { Oswald }  from "next/font/google";
 import './globals.css';
-
+import Footer from "./components/footer"
 
 
 // import NavGallery from "./components/navGallery/page";
 //import baseBouton from "./components/baseBouton/page";
-import Footer from "./components/footer"
+
 // import NavGallery from "./components/navGallery";
 
 
